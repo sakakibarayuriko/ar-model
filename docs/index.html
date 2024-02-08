@@ -15,11 +15,11 @@
     <a-scene embedded arjs vr-mode-ui="enabled: false;" renderer="logarithmicDepthBuffer: true;">
       <!-- 3DCGモデルを読み込む -->
       <a-assets>
-        <a-asset-item id="duck" src="./asset/duck.glb"></a-asset-item>
+        <a-asset-item id="duck" src="./assets/duck.glb"></a-asset-item>
       </a-assets>
 
       <!-- マーカーの.pattファイルを読み込む -->
-      <a-marker type="pattern" url="./asset/pattern-duck.patt">
+      <a-marker type="pattern" url="./assets/pattern-duck.patt">
         <!-- 3Dモデルを呼び出す -->
         <a-entity gltf-model="#duck"></a-entity>
       </a-marker>
